@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
+  <listeners>
+    <listener class-name="testsuite.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="testsuite.ListenerTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="tc_Login_01"/>
+          <include name="tc_Login_02"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- testsuite.ListenerTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Automation] -->
