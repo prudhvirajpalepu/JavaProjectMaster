@@ -37,6 +37,7 @@ comparison\ListCompare1.class
 testng\UploadFile.class
 automation\ArrayListCompare.class
 comparison\HashMapsCompare2.class
+testng\FileDownloadTest.class
 comparison\HashMapsCompare5.class
 comparison\ArraysCompare5.class
 automation\brokenImages.class
